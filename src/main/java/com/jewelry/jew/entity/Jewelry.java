@@ -8,7 +8,6 @@ public class Jewelry {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-
     private String name;
     private String name_id;
     private String description;
